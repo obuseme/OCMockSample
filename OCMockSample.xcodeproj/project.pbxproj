@@ -25,6 +25,7 @@
 		417D30D1189FF29B006EE8EF /* SomeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D30D0189FF29B006EE8EF /* SomeObject.m */; };
 		417D30D2189FF29B006EE8EF /* SomeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D30D0189FF29B006EE8EF /* SomeObject.m */; };
 		417D30D4189FF2F3006EE8EF /* SomeObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D30D3189FF2F3006EE8EF /* SomeObjectTests.m */; };
+		417D30DC18A2947A006EE8EF /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417D30DB18A2947A006EE8EF /* ViewControllerTests.m */; };
 		419E59A4189EE8B2004579E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 419E59A3189EE8B2004579E0 /* Person.m */; };
 		419E59A5189EE8B5004579E0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 419E59A3189EE8B2004579E0 /* Person.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		417D30CF189FF29B006EE8EF /* SomeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeObject.h; sourceTree = "<group>"; };
 		417D30D0189FF29B006EE8EF /* SomeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeObject.m; sourceTree = "<group>"; };
 		417D30D3189FF2F3006EE8EF /* SomeObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeObjectTests.m; sourceTree = "<group>"; };
+		417D30DB18A2947A006EE8EF /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		419E59A2189EE8B2004579E0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		419E59A3189EE8B2004579E0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		5D637BC340E74BC5A03ECABE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				417073D8189AD6BD00F08BDF /* PersonTests.m */,
 				417D30D3189FF2F3006EE8EF /* SomeObjectTests.m */,
 				417073D3189AD6BD00F08BDF /* Supporting Files */,
+				417D30DB18A2947A006EE8EF /* ViewControllerTests.m */,
 			);
 			path = OCMockSampleTests;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				417073D9189AD6BD00F08BDF /* PersonTests.m in Sources */,
 				417D30D4189FF2F3006EE8EF /* SomeObjectTests.m in Sources */,
 				417D30D2189FF29B006EE8EF /* SomeObject.m in Sources */,
+				417D30DC18A2947A006EE8EF /* ViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

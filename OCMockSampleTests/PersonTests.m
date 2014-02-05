@@ -56,12 +56,14 @@
     id mockPersonToTest = [OCMockObject partialMockForObject:aPersonToTest];
     [[[mockPersonToTest stub] andReturn:@"George Bush"] getFullName];
     
+    //Fail the test if this method is ever called
     [[mockPersonToTest reject] doSomethingElseWithTheName];
 
     aPersonToTest.suffix = @"Sr.";
 
     //Call getProperName on the mock object.
-    XCTAssertEqualObjects([mockPersonToTest getProperName], @"George Bush, Sr.", @"Proper name should be the first name followed by the last name, and then the suffix");
+    XCTAssertEqualObjects([mockPersonToTest getProperName], @"George Bush, Sr.",
+                                                            @"Proper name should be the first name followed by the last name, and then the suffix");
 }
 
 - (void)testGetProperNameAndDoSomething
